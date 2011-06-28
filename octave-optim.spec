@@ -3,7 +3,7 @@
 %define version 1.0.16
 %define release %mkrel 1
 
-Summary:	Non-linear optimization toolkit for Octave.
+Summary:	Non-linear optimization toolkit for Octave
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
