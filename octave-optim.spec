@@ -2,9 +2,9 @@
 
 Summary:	Non-linear optimization toolkit
 Name:		octave-%{octpkg}
-Version:	1.6.1
+Version:	1.6.2
 Release:	1
-Source0:	http://downloads.sourceforge.net/octave/%{octpkg}-%{version}.tar.gz
+Source0:	https://downloads.sourceforge.net/octave/%{octpkg}-%{version}.tar.gz
 License:	GPLv3+ and BSD and Public Domain
 Group:		Sciences/Mathematics
 Url:		https://octave.sourceforge.io/%{octpkg}/
