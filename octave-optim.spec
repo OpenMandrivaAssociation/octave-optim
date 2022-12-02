@@ -7,7 +7,7 @@ Release:	1
 Source0:	https://downloads.sourceforge.net/octave/%{octpkg}-%{version}.tar.gz
 License:	GPLv3+ and BSD and Public Domain
 Group:		Sciences/Mathematics
-Url:		https://octave.sourceforge.io/%{octpkg}/
+Url:		https://packages.octave.org/%{octpkg}/
 
 BuildRequires:	octave-devel >= 4.0.0
 BuildRequires:	octave-statistics >= 1.4.0
@@ -22,8 +22,6 @@ Requires(postun): octave
 
 %description
 Non-linear optimization toolkit.
-
-This package is part of community Octave-Forge collection.
 
 %files
 %license COPYING
