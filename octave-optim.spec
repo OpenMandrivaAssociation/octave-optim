@@ -3,7 +3,7 @@
 Summary:	Non-linear optimization toolkit
 Name:		octave-optim
 Version:	1.6.2
-Release:	2
+Release:	3
 License:	GPLv3+ and BSD and Public Domain
 Group:		Sciences/Mathematics
 Url:		https://packages.octave.org/optim/
