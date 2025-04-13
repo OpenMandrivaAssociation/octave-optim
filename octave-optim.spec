@@ -20,6 +20,9 @@ Requires:  	octave-struct >= 1.0.12
 Requires(post): octave
 Requires(postun): octave
 
+%patchlist
+octave-optim-1.6.2-octave10.patch
+
 %description
 Non-linear optimization toolkit.
 
