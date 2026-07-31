@@ -2,8 +2,8 @@
 
 Summary:	Non-linear optimization toolkit
 Name:		octave-optim
-Version:	1.6.2
-Release:	4
+Version:	1.6.3
+Release:	1
 License:	GPLv3+ and BSD and Public Domain
 Group:		Sciences/Mathematics
 Url:		https://packages.octave.org/optim/
@@ -21,7 +21,7 @@ Requires(post): octave
 Requires(postun): octave
 
 %patchlist
-octave-optim-1.6.2-octave10.patch
+# dropped (no longer applies): octave-optim-1.6.3-octave10.patch
 
 %description
 Non-linear optimization toolkit.
@@ -38,7 +38,7 @@ Non-linear optimization toolkit.
 #---------------------------------------------------------------------------
 
 %prep
-%autosetup -p1 -n %{octpkg}-%{version}
+%autosetup -p1 -n optim-1.6.3
 
 %build
 %set_build_flags
